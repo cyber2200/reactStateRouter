@@ -23,7 +23,8 @@ class Header extends React.Component {
       <div>
         <h1>Header</h1>
         <a onClick={() => this.linkClick('home')}>Home</a>| 
-        <a onClick={() => this.linkClick('about')}>About</a>
+        <a onClick={() => this.linkClick('about')}>About</a>|
+        <a href="./test">Server Side link</a>
       </div>
     );
   }

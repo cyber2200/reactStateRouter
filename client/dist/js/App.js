@@ -21338,6 +21338,12 @@ var Header = function (_React$Component) {
               return _this2.linkClick('about');
             } },
           'About'
+        ),
+        '|',
+        _react2.default.createElement(
+          'a',
+          { href: './test' },
+          'Server Side link'
         )
       );
     }
